@@ -1,9 +1,6 @@
-I've included the following extra functionality:
-
 Levels:
-The agents now come in waves. Each level spawns more agents and
-has a higher spawn rate than the last. (The values governing
-this can be easily changed.) There is a short gap between
+The agents come in waves. Each level spawns more agents and
+has a higher spawn rate than the last.There is a short gap between
 each level.
 
 Funds:
@@ -13,7 +10,7 @@ or the Nuke if you are feeling particularly destructive.
 
 Purchasing new towers:
 A Bullet Tower costs $2500, and a Radius Tower costs $2000.
-(These values can be easily changed.) They are placed randomly
+They are placed randomly
 within the gameplay area.
 
 Upgrades:
@@ -47,8 +44,3 @@ Extra sound effects:
 High score: 
 Keeps track of high score after resets.
 
-------------------
-
-Known issues:
-Buttons don't work when the window is resized. Although in the lab examples they don't
-work either when this happens so I wasn't sure how to make this work.
