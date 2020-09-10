@@ -1,0 +1,14 @@
+struct PixelInput
+{
+	float4 position : SV_POSITION;
+	float4 colour : COLOR;
+	float3 normal : NORMAL;
+	float2 uv : TEXCOORD;
+};
+
+float4 main(PixelInput input) : SV_TARGET
+{
+	float4 finalColour = float4(input.position.y / 400, input.position.x / 1024, input.position.x / 400, 0.0f);
+
+	return saturate(finalColour);
+}
